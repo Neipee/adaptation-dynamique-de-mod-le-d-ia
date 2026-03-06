@@ -1,14 +1,15 @@
 from google import genai
-from src.config import API_KEY
+from config import API_KEY
 
-def demander_a_gemini(prompt, MODEL_ID="models/gemini-3.1-flash-lite-preview"):
-    print(f"Analyse en cours avec {MODEL_ID} ...")
+
+
+def demander_a_gemini(prompt, model_id):
+    print(f"Analyse en cours avec {model_id} ...")
     
     client = genai.Client(api_key=API_KEY)
     try:
-        # Envoi du texte
         response = client.models.generate_content(
-            model=MODEL_ID,
+            model=model_id,
             contents=prompt
         )
     

@@ -1,2 +1,2 @@
-API_KEY = "AIzaSyBQL2jm88aw-csaTzCCqd8fgifketIMa5M"
+API_KEY ="your api key here" 
 

@@ -1,5 +1,4 @@
 from select_model import select_model
-fromrt subprocesssk import demander_a_gemini
 import subprocess
 
 
