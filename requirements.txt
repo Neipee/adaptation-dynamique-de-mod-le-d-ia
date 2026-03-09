@@ -1,0 +1,7 @@
+google-genai
+customtkinter
+pillow
+requests
+keyboard
+pyperclip
+pyautogui
