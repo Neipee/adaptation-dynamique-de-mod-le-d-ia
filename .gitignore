@@ -1,6 +1,7 @@
 
 # Environnements virtuels
 /src/venv/
+venv/
 
 # Fichiers Python compilés
 *.pyc
